@@ -51,7 +51,7 @@ class App(ctk.CTk):
         
 class Signup(ctk.CTkFrame):
     FILE_NAME = "users.csv"
-    SENDER_EMAIL = "smartgrocerytracker@gmail.com"
+    SENDER_EMAIL = "username@gmail.com"
     SENDER_PASSWORD = "your_app_password_here" 
     SMTP_SERVER = "smtp.gmail.com"
     SMTP_PORT = 587
@@ -150,8 +150,8 @@ class Signup(ctk.CTkFrame):
     
 class Signin(ctk.CTkFrame):
     FILE_NAME = "users.csv"
-    SENDER_EMAIL = "smartgrocerytracker@gmail.com"
-    SENDER_PASSWORD = "gyaa oicw mfbj ypve" 
+    SENDER_EMAIL = "username@gmail.com"
+    SENDER_PASSWORD = "your_app_password_here" 
     SMTP_SERVER = "smtp.gmail.com"
     SMTP_PORT = 587
     def __init__(self, parent):
